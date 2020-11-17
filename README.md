@@ -5,7 +5,7 @@ La aplicación no soporta imágenes de ningún otro tipo, aún soy Junior y nece
 
 ES NECESARIA LA LIBRERIA PIL 
 
-pip install pillow
+                  pip install pillow
 
 -e)     Para codificar el texto.
       steg.py -e ImagenEntrada -f|-s TextoEntrada ImagenSalida 
