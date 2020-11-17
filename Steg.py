@@ -2,7 +2,7 @@ import funciones
 try: 
     from PIL import Image
 except ImportError:
-    print("ERROR: Es necesario instalar 'PILLOW'\nPARA INSTALARLO PRUEBA: pip -m install pip")
+    print("ERROR: Es necesario instalar 'PILLOW'\nPARA INSTALARLO PRUEBA: pip install pip")
 
 import sys
 
