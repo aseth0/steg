@@ -20,3 +20,6 @@ PARA EJECUTAR STEG:
 
                  -f|--OutputFile         Si la salida se va a guardar en un archivo.
                  -s|--OutputString       Si la salida va a salir directamente por pantalla.    
+		 
+Si el texto a sacar es código, se puede guardar en un archivo directamente escribiendo el nombre y la extensión del archivo en la opcion de DECODE
+			Ej: Steg.py -d ImagenConTexto.png -f CodigoSalida.bat
