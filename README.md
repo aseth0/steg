@@ -3,6 +3,10 @@ Aplicación hecha en python para ocultar texto en imágenes png
 
 La aplicación no soporta imágenes de ningún otro tipo, aún soy Junior y necesito práctica :c
 
+ES NECESARIA LA LIBRERIA PIL 
+
+pip install pillow
+
 -e)     Para codificar el texto.
       steg.py -e ImagenEntrada -f|-s TextoEntrada ImagenSalida 
 
