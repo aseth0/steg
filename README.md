@@ -1,7 +1,7 @@
 # Steg
-Aplicación hecha en python para ocultar texto en imágenes png
+Aplicación hecha en python para ocultar texto en imágenes png.
 
-La aplicación no soporta imágenes de ningún otro tipo, aún soy Junior y necesito práctica :c
+La aplicación no soporta imágenes de ningún otro tipo, aún estoy practicando.
 
 
 ES NECESARIA LA LIBRERIA PIL: 
@@ -22,8 +22,10 @@ PARA EJECUTAR STEG:
                  -f|--OutputFile         Si la salida se va a guardar en un archivo.
                  -s|--OutputString       Si la salida va a salir directamente por pantalla.    
 		 
-Si el texto a sacar es código, se puede guardar en un archivo directamente escribiendo el nombre y la extensión del archivo en la opcion de DECODE
+Si queremos injectar Codigo en una imagen, basta con poner el nombre del archivo en la opción de ENCODE:
+			Ej: Steg.py -e ImagenEntrada.png -f CodigoEntrada.bat ImagenSalida.png
+
+De igual manera si el texto a sacar es código, se puede guardar en un archivo directamente escribiendo el nombre y la extensión del archivo en la opcion de DECODE:
 			Ej: Steg.py -d ImagenConTexto.png -f CodigoSalida.bat
 			
-De igual manera, si queremos injectar Codigo en una imagen, basta con poner el nombre del archivo en la opción de ENCODE:
-			Ej: Steg.py -e ImagenEntrada.png -f CodigoEntrada.bat ImagenSalida.png
+
