@@ -3,6 +3,7 @@ Aplicación hecha en python para ocultar texto en imágenes png
 
 La aplicación no soporta imágenes de ningún otro tipo, aún soy Junior y necesito práctica :c
 
+
 ES NECESARIA LA LIBRERIA PIL: 
 
                   pip install pillow
@@ -23,3 +24,6 @@ PARA EJECUTAR STEG:
 		 
 Si el texto a sacar es código, se puede guardar en un archivo directamente escribiendo el nombre y la extensión del archivo en la opcion de DECODE
 			Ej: Steg.py -d ImagenConTexto.png -f CodigoSalida.bat
+			
+De igual manera, si queremos injectar Codigo en una imagen, basta con poner el nombre del archivo en la opción de ENCODE:
+			Ej: Steg.py -e ImagenEntrada.png -f CodigoEntrada.bat ImagenSalida.png
