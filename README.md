@@ -8,7 +8,7 @@ La aplicación no soporta imágenes de ningún otro tipo, aún estoy practicando
 
                   pip install pillow
 				  
-PARA EJECUTAR STEG:
+<h2>PARA EJECUTAR STEG:</h2>
 
 	-e)     Para codificar el texto.
       steg.py -e ImagenEntrada -f|-s TextoEntrada ImagenSalida 
