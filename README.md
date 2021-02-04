@@ -4,7 +4,7 @@ Aplicación hecha en python para ocultar texto en imágenes png.
 La aplicación no soporta imágenes de ningún otro tipo, aún estoy practicando.
 
 
-ES NECESARIA LA LIBRERIA PIL: 
+<h1>ES NECESARIA LA LIBRERIA PIL:</h1> 
 
                   pip install pillow
 				  
