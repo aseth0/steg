@@ -1,5 +1,5 @@
 # Steg
-Aplicación hecha en python para ocultar texto en imágenes png.
+Aplicación hecha para ocultar texto en imágenes png.
 
 La aplicación no soporta imágenes de ningún otro tipo, aún estoy practicando.
 
